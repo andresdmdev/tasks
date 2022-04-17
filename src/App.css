@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  color: white;
+  background-color: #7f7fd1;
+  margin-top: 40px;
+}
+
+h1{
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin: 20px 0;
+
+}
+
+.aplicacion-tareas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-logo{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.amazon-logo{
+  width: 220px;
+  height: 40px;
+}
+
+.lista-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 25px;
+}
+

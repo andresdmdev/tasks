@@ -1,4 +1,5 @@
 {
+  "homepage":"https://andres-webdev.github.io/tasks",
   "name": "lista-tareas",
   "version": "0.1.0",
   "private": true,
@@ -14,8 +15,9 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "http://tasks.andresfrotenddev.com",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

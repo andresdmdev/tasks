@@ -15,7 +15,7 @@ function Lista(){
 
             setTareas(total);
         } else{
-            alert('Ingresar una tarea');
+            alert('Input another task');
         }
 
     };

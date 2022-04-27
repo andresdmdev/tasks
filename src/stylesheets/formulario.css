@@ -6,16 +6,18 @@
 }
 
 .tarea-input{
-    width: 60%;
+    width: 65%;
+    height: 60px;
     font-size: 18px;
     background-color: white;
-    padding: 14px 32px 14px 16px;
+    padding: 14px 25px 14px 16px;
     border-radius:  8px 0 0 8px;
     border:  2px solid #00471b;
     outline: none;
 }
 
 .tarea-boton{
+    height: 60px;
     padding: 16px;
     font-size: 18px;
     font-family: Roboto, sans-serif;
@@ -26,5 +28,21 @@
     background: #00471b;
     color: #fff;
     text-transform: capitalize;
+}
+
+/*-------Media Movil -------*/
+
+@media screen and (max-width: 500px){
+    .tarea-boton{
+        width: 25%;
+        height: 50px;
+        padding: 2px;
+        font-size: 16px
+    }
+
+    .tarea-input{
+        height: 50px;
+        font-size: 16px;
+    }
 }
 

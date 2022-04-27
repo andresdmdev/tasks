@@ -29,11 +29,11 @@ function Formulario(props){
             <input 
                 className="tarea-input" 
                 type="text"
-                placeholder="Escribe una tarea"
+                placeholder="Write a task"
                 name="texto"
                 onChange={manejarCambio}
             />
-            <button className="tarea-boton">Agregar tarea</button>
+            <button className="tarea-boton">Add task</button>
         </form>
     );
 }

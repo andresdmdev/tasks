@@ -1,5 +1,5 @@
 import './App.css';
-import Lista from './componentes/lista';
+import Lista from './componentes/Lista';
 
 function App() {
   return (

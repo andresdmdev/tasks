@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Formulario from "./form";
-import Tarea from "./tarea";
+import Formulario from "./Form";
+import Tarea from "./Tarea";
 import '../stylesheets/lista.css';
 
 function Lista(){
@@ -8,7 +8,7 @@ function Lista(){
     const [tareas, setTareas] = useState([]);
 
     const agregarTarea = tarea => {
-        if(tarea.texto.trim()){
+        if(tarea.texto){
             tarea.texto = tarea.texto.trim();
 
             const total = [tarea,...tareas];

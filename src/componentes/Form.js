@@ -20,6 +20,8 @@ function Formulario(props){
         };
 
         props.onSubmit(nueva);
+
+        setInput('')
     };
 
     return(
@@ -31,6 +33,7 @@ function Formulario(props){
                 type="text"
                 placeholder="Write a task"
                 name="texto"
+                value={input}
                 onChange={manejarCambio}
             />
             <button className="tarea-boton">Add task</button>
